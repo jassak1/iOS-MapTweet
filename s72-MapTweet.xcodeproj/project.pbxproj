@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A2A275D27AD296E00D5DE2D /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A275C27AD296E00D5DE2D /* PlaceView.swift */; };
+		9A2A275F27AD309F00D5DE2D /* PlaceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A275E27AD309F00D5DE2D /* PlaceVM.swift */; };
+		9A2A276127AD4ED700D5DE2D /* GalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A276027AD4ED700D5DE2D /* GalleryVC.swift */; };
+		9A2A276427AD58B600D5DE2D /* Place+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A276227AD58B600D5DE2D /* Place+CoreDataClass.swift */; };
+		9A2A276527AD58B600D5DE2D /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A276327AD58B600D5DE2D /* Place+CoreDataProperties.swift */; };
+		9A38835B27AC2F6800882AEE /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38835A27AC2F6800882AEE /* Extras.swift */; };
+		9A38835F27AC33F500882AEE /* MapTweet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A38835D27AC33F500882AEE /* MapTweet.xcdatamodeld */; };
+		9A4CD95027A853FB00EEC7EA /* s72_MapTweetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CD94F27A853FB00EEC7EA /* s72_MapTweetApp.swift */; };
+		9A4CD95427A853FC00EEC7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4CD95327A853FC00EEC7EA /* Assets.xcassets */; };
+		9A4CD95727A853FC00EEC7EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4CD95627A853FC00EEC7EA /* Preview Assets.xcassets */; };
+		9A4CD96127A854CC00EEC7EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CD96027A854CC00EEC7EA /* HomeView.swift */; };
+		9A4CD96327A8575000EEC7EA /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CD96227A8575000EEC7EA /* TrendsView.swift */; };
+		9A4CD96727A85A3400EEC7EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CD96627A85A3400EEC7EA /* MapView.swift */; };
+		9A4CD96927A85B7C00EEC7EA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CD96827A85B7C00EEC7EA /* SettingsView.swift */; };
+		9A7B80AA27AECA7800BE1B6D /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7B80A927AECA7800BE1B6D /* GalleryView.swift */; };
+		9A7B80AC27AEEA3900BE1B6D /* HashtagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7B80AB27AEEA3900BE1B6D /* HashtagsView.swift */; };
+		9A7B80AE27AEEBAF00BE1B6D /* HashtagsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7B80AD27AEEBAF00BE1B6D /* HashtagsVM.swift */; };
+		9AA3795E27AFD6C800721AEB /* SettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3795D27AFD6C800721AEB /* SettingsVM.swift */; };
+		9AA3796027B01CCF00721AEB /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA3795F27B01CCF00721AEB /* Protocols.swift */; };
+		9AFBECF227A9743900FD0A4E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBECF127A9743800FD0A4E /* Model.swift */; };
+		9AFBECF427A9798500FD0A4E /* MapVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBECF327A9798500FD0A4E /* MapVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A2A275C27AD296E00D5DE2D /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		9A2A275E27AD309F00D5DE2D /* PlaceVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceVM.swift; sourceTree = "<group>"; };
+		9A2A276027AD4ED700D5DE2D /* GalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryVC.swift; sourceTree = "<group>"; };
+		9A2A276227AD58B600D5DE2D /* Place+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Place+CoreDataClass.swift"; path = "s72-MapTweet/Model/Place+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		9A2A276327AD58B600D5DE2D /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Place+CoreDataProperties.swift"; path = "s72-MapTweet/Model/Place+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		9A38835A27AC2F6800882AEE /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		9A38835E27AC33F500882AEE /* MapTweet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapTweet.xcdatamodel; sourceTree = "<group>"; };
+		9A38836027AC51D600882AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9A4CD94C27A853FB00EEC7EA /* s72-MapTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "s72-MapTweet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4CD94F27A853FB00EEC7EA /* s72_MapTweetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s72_MapTweetApp.swift; sourceTree = "<group>"; };
+		9A4CD95327A853FC00EEC7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A4CD95627A853FC00EEC7EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A4CD96027A854CC00EEC7EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9A4CD96227A8575000EEC7EA /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
+		9A4CD96627A85A3400EEC7EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9A4CD96827A85B7C00EEC7EA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9A7B80A927AECA7800BE1B6D /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		9A7B80AB27AEEA3900BE1B6D /* HashtagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagsView.swift; sourceTree = "<group>"; };
+		9A7B80AD27AEEBAF00BE1B6D /* HashtagsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagsVM.swift; sourceTree = "<group>"; };
+		9AA3795D27AFD6C800721AEB /* SettingsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVM.swift; sourceTree = "<group>"; };
+		9AA3795F27B01CCF00721AEB /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		9AFBECF127A9743800FD0A4E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9AFBECF327A9798500FD0A4E /* MapVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A4CD94927A853FB00EEC7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A38835C27AC339F00882AEE /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				9A38835A27AC2F6800882AEE /* Extras.swift */,
+				9AA3795F27B01CCF00721AEB /* Protocols.swift */,
+				9A38835D27AC33F500882AEE /* MapTweet.xcdatamodeld */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		9A4CD94327A853FB00EEC7EA = {
+			isa = PBXGroup;
+			children = (
+				9A4CD94E27A853FB00EEC7EA /* s72-MapTweet */,
+				9A4CD94D27A853FB00EEC7EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A4CD94D27A853FB00EEC7EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A4CD94C27A853FB00EEC7EA /* s72-MapTweet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A4CD94E27A853FB00EEC7EA /* s72-MapTweet */ = {
+			isa = PBXGroup;
+			children = (
+				9A38836027AC51D600882AEE /* Info.plist */,
+				9A4CD94F27A853FB00EEC7EA /* s72_MapTweetApp.swift */,
+				9A38835C27AC339F00882AEE /* Extras */,
+				9A4CD96527A857B600EEC7EA /* ViewModel */,
+				9A4CD96427A857A300EEC7EA /* Model */,
+				9A4CD95F27A854C100EEC7EA /* View */,
+				9A4CD95327A853FC00EEC7EA /* Assets.xcassets */,
+				9A4CD95527A853FC00EEC7EA /* Preview Content */,
+			);
+			path = "s72-MapTweet";
+			sourceTree = "<group>";
+		};
+		9A4CD95527A853FC00EEC7EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A4CD95627A853FC00EEC7EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A4CD95F27A854C100EEC7EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A4CD96027A854CC00EEC7EA /* HomeView.swift */,
+				9A4CD96227A8575000EEC7EA /* TrendsView.swift */,
+				9A7B80AB27AEEA3900BE1B6D /* HashtagsView.swift */,
+				9A4CD96627A85A3400EEC7EA /* MapView.swift */,
+				9A4CD96827A85B7C00EEC7EA /* SettingsView.swift */,
+				9A2A275C27AD296E00D5DE2D /* PlaceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A4CD96427A857A300EEC7EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AFBECF127A9743800FD0A4E /* Model.swift */,
+				9A2A276227AD58B600D5DE2D /* Place+CoreDataClass.swift */,
+				9A2A276327AD58B600D5DE2D /* Place+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A4CD96527A857B600EEC7EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9AFBECF327A9798500FD0A4E /* MapVM.swift */,
+				9A2A275E27AD309F00D5DE2D /* PlaceVM.swift */,
+				9A2A276027AD4ED700D5DE2D /* GalleryVC.swift */,
+				9A7B80A927AECA7800BE1B6D /* GalleryView.swift */,
+				9A7B80AD27AEEBAF00BE1B6D /* HashtagsVM.swift */,
+				9AA3795D27AFD6C800721AEB /* SettingsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A4CD94B27A853FB00EEC7EA /* s72-MapTweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4CD95A27A853FC00EEC7EA /* Build configuration list for PBXNativeTarget "s72-MapTweet" */;
+			buildPhases = (
+				9A4CD94827A853FB00EEC7EA /* Sources */,
+				9A4CD94927A853FB00EEC7EA /* Frameworks */,
+				9A4CD94A27A853FB00EEC7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "s72-MapTweet";
+			productName = "s72-MapTweet";
+			productReference = 9A4CD94C27A853FB00EEC7EA /* s72-MapTweet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A4CD94427A853FB00EEC7EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9A4CD94B27A853FB00EEC7EA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9A4CD94727A853FB00EEC7EA /* Build configuration list for PBXProject "s72-MapTweet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A4CD94327A853FB00EEC7EA;
+			productRefGroup = 9A4CD94D27A853FB00EEC7EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A4CD94B27A853FB00EEC7EA /* s72-MapTweet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A4CD94A27A853FB00EEC7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4CD95727A853FC00EEC7EA /* Preview Assets.xcassets in Resources */,
+				9A4CD95427A853FC00EEC7EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A4CD94827A853FB00EEC7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2A276427AD58B600D5DE2D /* Place+CoreDataClass.swift in Sources */,
+				9A4CD96927A85B7C00EEC7EA /* SettingsView.swift in Sources */,
+				9A4CD95027A853FB00EEC7EA /* s72_MapTweetApp.swift in Sources */,
+				9A2A275F27AD309F00D5DE2D /* PlaceVM.swift in Sources */,
+				9A7B80AA27AECA7800BE1B6D /* GalleryView.swift in Sources */,
+				9A2A275D27AD296E00D5DE2D /* PlaceView.swift in Sources */,
+				9A4CD96727A85A3400EEC7EA /* MapView.swift in Sources */,
+				9AFBECF227A9743900FD0A4E /* Model.swift in Sources */,
+				9A2A276527AD58B600D5DE2D /* Place+CoreDataProperties.swift in Sources */,
+				9AA3796027B01CCF00721AEB /* Protocols.swift in Sources */,
+				9A4CD96327A8575000EEC7EA /* TrendsView.swift in Sources */,
+				9A2A276127AD4ED700D5DE2D /* GalleryVC.swift in Sources */,
+				9A7B80AC27AEEA3900BE1B6D /* HashtagsView.swift in Sources */,
+				9A38835F27AC33F500882AEE /* MapTweet.xcdatamodeld in Sources */,
+				9AFBECF427A9798500FD0A4E /* MapVM.swift in Sources */,
+				9A38835B27AC2F6800882AEE /* Extras.swift in Sources */,
+				9A4CD96127A854CC00EEC7EA /* HomeView.swift in Sources */,
+				9A7B80AE27AEEBAF00BE1B6D /* HashtagsVM.swift in Sources */,
+				9AA3795E27AFD6C800721AEB /* SettingsVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A4CD95827A853FC00EEC7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A4CD95927A853FC00EEC7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A4CD95B27A853FC00EEC7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"s72-MapTweet/Preview Content\"";
+				DEVELOPMENT_TEAM = 474645CHKF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "s72-MapTweet/Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "MapTweet would like to use FaceID";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jassak1.s72-MapTweet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A4CD95C27A853FC00EEC7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"s72-MapTweet/Preview Content\"";
+				DEVELOPMENT_TEAM = 474645CHKF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "s72-MapTweet/Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "MapTweet would like to use FaceID";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jassak1.s72-MapTweet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A4CD94727A853FB00EEC7EA /* Build configuration list for PBXProject "s72-MapTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4CD95827A853FC00EEC7EA /* Debug */,
+				9A4CD95927A853FC00EEC7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A4CD95A27A853FC00EEC7EA /* Build configuration list for PBXNativeTarget "s72-MapTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4CD95B27A853FC00EEC7EA /* Debug */,
+				9A4CD95C27A853FC00EEC7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A38835D27AC33F500882AEE /* MapTweet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A38835E27AC33F500882AEE /* MapTweet.xcdatamodel */,
+			);
+			currentVersion = 9A38835E27AC33F500882AEE /* MapTweet.xcdatamodel */;
+			path = MapTweet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A4CD94427A853FB00EEC7EA /* Project object */;
+}
