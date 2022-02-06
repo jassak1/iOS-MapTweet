@@ -3,14 +3,14 @@ iOS app - MapTweet. Created using SwiftUI.
 
 <table>
 <tr>
-<td><img src="MDImg/image0.png" width=225 height=485></td>
-<td><img src="MDImg/image1.png" width=225 height=485></td>
-<td><img src="MDImg/image2.png" width=225 height=485></td>
+<td><img src="MDImg/image0.PNG" width=225 height=485></td>
+<td><img src="MDImg/image1.PNG" width=225 height=485></td>
+<td><img src="MDImg/image2.PNG" width=225 height=485></td>
 </tr>
 <tr>
-<td><img src="MDImg/image3.png" width=225 height=485></td>
-<td><img src="MDImg/image4.png" width=225 height=485></td>
-<td><img src="MDImg/image5.png" width=225 height=485></td>
+<td><img src="MDImg/image3.PNG" width=225 height=485></td>
+<td><img src="MDImg/image4.PNG" width=225 height=485></td>
+<td><img src="MDImg/image5.PNG" width=225 height=485></td>
 </tr>
 </table>
 
